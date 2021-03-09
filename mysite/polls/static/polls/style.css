@@ -1,0 +1,62 @@
+li a{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    
+}
+
+li {
+  font-size: 30px;
+  list-style: none;
+
+}
+ h1,a ,ul,p {
+    padding-top: 15px;
+    padding-left: 15%;
+    list-style: none;
+    
+}
+
+body{
+    background-image: url("images/code.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.topnav {
+    overflow: hidden;
+  padding-left:600px;
+  padding-top: 30px
+  }
+  
+  .topnav a {
+    width: 200px;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 10px;
+    font-size: 20px;
+  }
